@@ -12,6 +12,7 @@ body
 {
   font-family: sans-serif;
   background: transparent;
+  overflow: hidden;
 }
 
 .scene,
@@ -81,12 +82,12 @@ header ul li a
   color: #83f7ff;
   font-size: 1.5em;
 }
-::-webkit-scrollbar-track
-{
-    width: 0;
-}
 @media (max-width: 991px)
 {
+    body 
+    {
+        overflow: visible;
+    }
     .scene,
     canvas 
     {
