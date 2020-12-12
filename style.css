@@ -149,7 +149,7 @@ header ul li a
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(../img/menu.png);
+        background: url(./img/menu.png);
         background-position: center;
         background-size: 30px;
         background-repeat: no-repeat;
@@ -160,7 +160,7 @@ header ul li a
     {
         background-position: center;
         background-size: 20px;
-        background: url(../img/close.png);
+        background: url(./img/close.png);
         background-repeat: no-repeat;
         filter: invert(1);
         position: fixed;
