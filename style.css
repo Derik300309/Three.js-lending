@@ -81,6 +81,10 @@ header ul li a
   color: #83f7ff;
   font-size: 1.5em;
 }
+::-webkit-scrollbar-track
+{
+    width: 0;
+}
 @media (max-width: 991px)
 {
     .scene,
