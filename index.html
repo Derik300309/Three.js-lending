@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+	  <section class="sec">
+		<header>
+		<a href="#" class="logo">Network</a>
+		<div class="toggleMenu" onclick="menuToggle();"></div>
+		<ul class="navigation">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Whats's New</a></li>
+			<li><a href="#">Newsletter</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</header>
+	<div class="content">
+		<div class="textBox">
+			<h2>That's What<br><span>I like</span></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis veniam quam numquam similique recusandae nihil aliquid ut? Quasi, maiores esse provident architecto nulla repellendus! Quasi fugiat nisi ut natus blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum!</p>
+		  </div>
+	</div>
+	  </section>
+    <div class="scene"></div>
+    <script src="./three.min.js"></script>
+    <script src="./GLTFLoader.js"></script>
+	<script src="./app.js"></script>
+	<script>
+		function menuToggle(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+	</script>
+  </body>
+</html>
